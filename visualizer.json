@@ -1,0 +1,2662 @@
+{
+    "page": {
+      "size": 50,
+      "number": 0,
+      "total_elements": 26,
+      "total_pages": 1
+    },
+    "_links": {
+      "self": {
+        "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp?page=0&size=50&q=amox&status=true&attr=category,subcategory,synonyms,marketed,device,flavour,supplier,extended,pack_quantity,pack_quantity_unit,substances,vtm,vmp,amp,vmpp,tf,tfg&maps=tfc&apikey=5e1dc5891a05f000011faf522daf1a4785e04b3ab708d2da1fc7ea4c&refset=1002"
+      },
+      "first": {
+        "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp?page=0&size=50"
+      }
+    },
+    "_embedded": {
+      "ampp": [
+        {
+          "id": "ID45bd1ab774829499fed6e4a34417a73e",
+          "term": "amoxicilina 1000 mg - ácido clavulánico 200 mg polvo para solución inyectable (Ascend) 1 vial",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": 0,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Ascend Laboratories SpA",
+          "extended": [
+            "polvo para solución inyectable"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "IDed4b8bbec8a264df5bbd2d9a06ad077e",
+              "term": "ácido clavulánico",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDed4b8bbec8a264df5bbd2d9a06ad077e"
+                }
+              }
+            },
+            {
+              "id": "ID4404e15151cac1f61ef7f18827750fbe",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID4404e15151cac1f61ef7f18827750fbe"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID8a3bfc6a97ac681a464a221f95c1294b",
+              "term": "amoxicilina - ácido clavulánico",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID8a3bfc6a97ac681a464a221f95c1294b"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "IDcf4d15dabc704cf0d304ae3f1744ee94",
+              "term": "amoxicilina 1000 mg - ácido clavulánico 200 mg inyectable",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/IDcf4d15dabc704cf0d304ae3f1744ee94"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID65e4c5ae24ca60353a42b35d43bd5d54",
+              "term": "amoxicilina 1000 mg - ácido clavulánico 200 mg polvo para solución inyectable (Ascend)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID65e4c5ae24ca60353a42b35d43bd5d54"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID0b143937772d8a37b49d0f0379304285",
+              "term": "amoxicilina 1000 mg - ácido clavulánico 200 mg inyectable 1 vial",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID0b143937772d8a37b49d0f0379304285"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID45bd1ab774829499fed6e4a34417a73e"
+            }
+          },
+          "tf": {
+            "id": "ID39eefccd92f962c53a14e38d48e2850d",
+            "term": "amoxicilina - ácido clavulánico",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID39eefccd92f962c53a14e38d48e2850d"
+              }
+            }
+          },
+          "maps": {}
+        },
+        {
+          "id": "ID985add9b536ddb4ed549c014e4b3306a",
+          "term": "amoxicilina 1000 mg - ácido clavulánico 200 mg polvo para solución inyectable (Medipharm) 1 vial",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": 0,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Productos Farmacéuticos Medipharm Ltda.",
+          "extended": [
+            "polvo para solución inyectable"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "IDfe4f2860ed538b591ecbda9c4a51640c",
+              "term": "ácido clavulánico",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDfe4f2860ed538b591ecbda9c4a51640c"
+                }
+              }
+            },
+            {
+              "id": "IDe6fbef7c230dcc6f4f9f3d2a4e252283",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDe6fbef7c230dcc6f4f9f3d2a4e252283"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID6792adce734e1bcf7e2e9de776a4789d",
+              "term": "amoxicilina - ácido clavulánico",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID6792adce734e1bcf7e2e9de776a4789d"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID323631666a61cffff22f93d3714fb747",
+              "term": "amoxicilina 1000 mg - ácido clavulánico 200 mg inyectable",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID323631666a61cffff22f93d3714fb747"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID833c6af0bbe5b312f8254d3231efc444",
+              "term": "amoxicilina 1000 mg - ácido clavulánico 200 mg polvo para solución inyectable (Medipharm)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID833c6af0bbe5b312f8254d3231efc444"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID43e562f7a874239ac6b9b66c71f34631",
+              "term": "amoxicilina 1000 mg - ácido clavulánico 200 mg inyectable 1 vial",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID43e562f7a874239ac6b9b66c71f34631"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID985add9b536ddb4ed549c014e4b3306a"
+            }
+          },
+          "tf": {
+            "id": "IDddc6fa13902d53781f9160ff3f73c88e",
+            "term": "amoxicilina - ácido clavulánico",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDddc6fa13902d53781f9160ff3f73c88e"
+              }
+            }
+          },
+          "maps": {}
+        },
+        {
+          "id": "ID6e20869578f4a86a34343ea8f27af82b",
+          "term": "amoxicilina 250 mg/5mL polvo para suspensión oral (Andrómaco) 1 frasco 60 mililitros",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorios Andrómaco S.A.",
+          "extended": [
+            "polvo para suspensión oral"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID7f838d0209f44207fa2e3ab8cb114b12",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID7f838d0209f44207fa2e3ab8cb114b12"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDb01bbb66bfa74670795dd855be82ffe2",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDb01bbb66bfa74670795dd855be82ffe2"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "IDdfaafafd0d5f98c94146d8f5a630d016",
+              "term": "amoxicilina 250 mg/5 mL polvo para preparado oral",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/IDdfaafafd0d5f98c94146d8f5a630d016"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID805f48db05b0d556bdc8c155ef3f47c1",
+              "term": "amoxicilina 250 mg/5 mL polvo para suspensión oral (Andrómaco)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID805f48db05b0d556bdc8c155ef3f47c1"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "IDa1766c8360b9ba35826ed1c57dc2d111",
+              "term": "amoxicilina 250 mg/5 mL polvo para preparado oral 1 frasco 60 mililitros",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/IDa1766c8360b9ba35826ed1c57dc2d111"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID6e20869578f4a86a34343ea8f27af82b"
+            }
+          },
+          "tf": {
+            "id": "ID3977c3d38442e6f4be5b52a22c20a1c0",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID3977c3d38442e6f4be5b52a22c20a1c0"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "913871000167104",
+              "term": "amoxicilina 250 mg/5mL polvo para suspensión oral (Andrómaco) 1 frasco 60 mililitros"
+            }
+          }
+        },
+        {
+          "id": "ID72f156b86d2ef55f8067f35de6cd9c97",
+          "term": "amoxicilina 250 mg/5mL polvo para suspensión oral (Lab Chile) 1 frasco 60 mililitros",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": 0,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorio Chile S.A.",
+          "extended": [
+            "polvo para suspensión oral"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID990ab6cd73352061eef90526cdcecb0b",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID990ab6cd73352061eef90526cdcecb0b"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID0cfdfa1d2c870dc118d54f3a423b5e93",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID0cfdfa1d2c870dc118d54f3a423b5e93"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID13d4fbf186421efac80fdf9745b9e3f5",
+              "term": "amoxicilina 250 mg/5 mL polvo para preparado oral",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID13d4fbf186421efac80fdf9745b9e3f5"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID954bf4f62f3147fb1a5976799c23c43b",
+              "term": "amoxicilina 250 mg/5 mL polvo para suspensión oral (Lab Chile)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID954bf4f62f3147fb1a5976799c23c43b"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "IDf5ceade30be00c4954e8975436eeb630",
+              "term": "amoxicilina 250 mg/5 mL polvo para preparado oral 1 frasco 60 mililitros",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/IDf5ceade30be00c4954e8975436eeb630"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID72f156b86d2ef55f8067f35de6cd9c97"
+            }
+          },
+          "tf": {
+            "id": "IDad628ba2d99e6885985e163933534c27",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDad628ba2d99e6885985e163933534c27"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "913881000167102",
+              "term": "amoxicilina 250 mg/5mL polvo para suspensión oral (Lab Chile) 1 frasco 60 mililitros"
+            }
+          }
+        },
+        {
+          "id": "ID10cc6c59c9f7d3dc642b9e6344267605",
+          "term": "amoxicilina 250 mg/5 mL polvo para suspensión oral (Mintlab) 1 frasco 60 mililitros",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Mintlab Co. S.A.",
+          "extended": [
+            "polvo para suspensión oral"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID2df001fc64ac9d3cef28cb61275ff848",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID2df001fc64ac9d3cef28cb61275ff848"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDb570f2cecabe3188799689dd355b307d",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDb570f2cecabe3188799689dd355b307d"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "IDe5c08a677ca2fefda1a526d0d69fa4ed",
+              "term": "amoxicilina 250 mg/5 mL polvo para preparado oral",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/IDe5c08a677ca2fefda1a526d0d69fa4ed"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID4cdb9443d9a500a4f6bb674d89763f5d",
+              "term": "amoxicilina 250 mg/5 mL polvo para suspensión oral (Mintlab)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID4cdb9443d9a500a4f6bb674d89763f5d"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID7d041d4f1c2b48ac0a9b8d5c58f5733f",
+              "term": "amoxicilina 250 mg/5 mL polvo para preparado oral 1 frasco 60 mililitros",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID7d041d4f1c2b48ac0a9b8d5c58f5733f"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID10cc6c59c9f7d3dc642b9e6344267605"
+            }
+          },
+          "tf": {
+            "id": "ID393195f54fbf6c7c70851ddde4374743",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID393195f54fbf6c7c70851ddde4374743"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "874001000167102",
+              "term": "amoxicilina 250 mg/5 mL polvo para suspensión oral (Mintlab) 1 frasco 60 mililitros"
+            }
+          }
+        },
+        {
+          "id": "IDc0d9c004521ed9b1866be62411f1fd3a",
+          "term": "amoxicilina 500 mg/5mL polvo para suspensión oral (Andrómaco) 1 frasco 60 mililitros",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorios Andrómaco S.A.",
+          "extended": [
+            "polvo para suspensión oral"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "IDc2d3ec7d28153fbc8cd6b1e86ac5199a",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDc2d3ec7d28153fbc8cd6b1e86ac5199a"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDfbb94b191d2ca8a3d6f2f208912c5861",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDfbb94b191d2ca8a3d6f2f208912c5861"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "IDf8b910734fc0bc7cb1d5ceb9aaac7cd6",
+              "term": "amoxicilina 500 mg/5 mL polvo para preparado oral",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/IDf8b910734fc0bc7cb1d5ceb9aaac7cd6"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID5956b1af088c4812260ecf54ca4d5b75",
+              "term": "amoxicilina 500 mg/5 mL polvo para suspensión oral (Andrómaco)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID5956b1af088c4812260ecf54ca4d5b75"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "IDd5fdcb3cddca9b59c32f71d2b571d627",
+              "term": "amoxicilina 500 mg/5 mL polvo para preparado oral 1 frasco 60 mililitros",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/IDd5fdcb3cddca9b59c32f71d2b571d627"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/IDc0d9c004521ed9b1866be62411f1fd3a"
+            }
+          },
+          "tf": {
+            "id": "ID785bcc574f311b3cbfb61f829ba1a2c4",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID785bcc574f311b3cbfb61f829ba1a2c4"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "913991000167105",
+              "term": "amoxicilina 500 mg/5mL polvo para suspensión oral (Andrómaco) 1 frasco 60 mililitros"
+            }
+          }
+        },
+        {
+          "id": "ID95c8bd3e640649762e7eaea8d0193539",
+          "term": "amoxicilina 500 mg/5 mL polvo para suspensión oral (Lab Chile) 1 frasco 60 mililitros",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": 0,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorio Chile S.A.",
+          "extended": [
+            "polvo para suspensión oral"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "IDd047b2b359925fe8265c6dab1de93aa9",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDd047b2b359925fe8265c6dab1de93aa9"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDd51eab4fccb12fba12a9cb66170943f1",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDd51eab4fccb12fba12a9cb66170943f1"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID2d9e5c35eab6a9c3bcb1727074290bfb",
+              "term": "amoxicilina 500 mg/5 mL polvo para preparado oral",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID2d9e5c35eab6a9c3bcb1727074290bfb"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID97a27477627f7353353adc77f331d085",
+              "term": "amoxicilina 500 mg/5 mL polvo para suspensión oral (Lab Chile)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID97a27477627f7353353adc77f331d085"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID8065d145b87850c937a70c1c3e627273",
+              "term": "amoxicilina 500 mg/5 mL polvo para preparado oral 1 frasco 60 mililitros",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID8065d145b87850c937a70c1c3e627273"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID95c8bd3e640649762e7eaea8d0193539"
+            }
+          },
+          "tf": {
+            "id": "ID27bfaed265e8bc3b3bd88e2be972bc6d",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID27bfaed265e8bc3b3bd88e2be972bc6d"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "913111000167100",
+              "term": "amoxicilina 500 mg/5 mL polvo para suspensión oral (Lab Chile) 1 frasco 60 mililitros"
+            }
+          }
+        },
+        {
+          "id": "IDd532563370f6b8966eb0973f39074d31",
+          "term": "amoxicilina 500 mg/5 mL polvo para suspensión oral (Mintlab) 1 frasco 60 mililitros",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Mintlab Co. S.A.",
+          "extended": [
+            "polvo para suspensión oral"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "IDa98f82f6df0c3a43fbf3fff6acbcf29f",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDa98f82f6df0c3a43fbf3fff6acbcf29f"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDa5b661a5eb637cf7de2a3a93ab1bee34",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDa5b661a5eb637cf7de2a3a93ab1bee34"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID4640c2195684d7cde64a3f3e7e9562d8",
+              "term": "amoxicilina 500 mg/5 mL polvo para preparado oral",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID4640c2195684d7cde64a3f3e7e9562d8"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "IDa55431fa9e041eebdd6aaf9eac04caf7",
+              "term": "amoxicilina 500 mg/5 mL polvo para suspensión oral (Mintlab)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/IDa55431fa9e041eebdd6aaf9eac04caf7"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID7a2f1fc9969fde75879b740d93392222",
+              "term": "amoxicilina 500 mg/5 mL polvo para preparado oral 1 frasco 60 mililitros",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID7a2f1fc9969fde75879b740d93392222"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/IDd532563370f6b8966eb0973f39074d31"
+            }
+          },
+          "tf": {
+            "id": "IDa9d2138fa70397c9abedb553983b9f3c",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDa9d2138fa70397c9abedb553983b9f3c"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "927861000167105",
+              "term": "amoxicilina 500 mg/5 mL polvo para suspensión oral (Mintlab) 1 frasco 60 mililitros"
+            }
+          }
+        },
+        {
+          "id": "ID1fdcb2b7d9525074f8640ede2314c975",
+          "term": "amoxicilina 500 mg - ácido clavulánico 125 mg comprimido recubierto (OPKO) 20 comprimidos",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": 0,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "OPKO CHILE S.A.",
+          "extended": [
+            "comprimido recubierto"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID3f5bf7ed5d21b4de07862c5d16bec45e",
+              "term": "ácido clavulánico",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID3f5bf7ed5d21b4de07862c5d16bec45e"
+                }
+              }
+            },
+            {
+              "id": "IDf52113d802f98abc5b04d374a29cc02a",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDf52113d802f98abc5b04d374a29cc02a"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID55285c70eda742393c461c997f846d9c",
+              "term": "amoxicilina - ácido clavulánico",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID55285c70eda742393c461c997f846d9c"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "IDa9667ea12c28f54a4c9484a30803b9ad",
+              "term": "amoxicilina 500 mg - ácido clavulánico 125 mg comprimido",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/IDa9667ea12c28f54a4c9484a30803b9ad"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "IDa0107895eb5da13950e294b1b47e7fbe",
+              "term": "amoxicilina 500 mg - ácido clavulánico 125 mg comprimido recubierto (OPKO)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/IDa0107895eb5da13950e294b1b47e7fbe"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID1d9e10cc1a4464daa1394b4c44242155",
+              "term": "amoxicilina 500 mg - ácido clavulánico 125 mg comprimido 20 comprimidos",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID1d9e10cc1a4464daa1394b4c44242155"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID1fdcb2b7d9525074f8640ede2314c975"
+            }
+          },
+          "tf": {
+            "id": "ID7dcdf22d40974a68de3dd9c8a2933d12",
+            "term": "amoxicilina - ácido clavulánico",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID7dcdf22d40974a68de3dd9c8a2933d12"
+              }
+            }
+          },
+          "maps": {}
+        },
+        {
+          "id": "IDe4ffefc972b4660b86a06accd37c783d",
+          "term": "amoxicilina 500 mg cápsula (Andrómaco) 21 cápsulas",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorios Andrómaco S.A.",
+          "extended": [
+            "cápsula"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID159647edffce5c74f8b13bef55e41548",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID159647edffce5c74f8b13bef55e41548"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID3e72cfb12130d686a8e7e7e31af6b70d",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID3e72cfb12130d686a8e7e7e31af6b70d"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "IDcba61987e64f69bee46f531e34b32b67",
+              "term": "amoxicilina 500 mg cápsula",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/IDcba61987e64f69bee46f531e34b32b67"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID96b9b7190e4e9c9c8b8275aa214f9b1c",
+              "term": "amoxicilina 500 mg cápsula (Andrómaco)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID96b9b7190e4e9c9c8b8275aa214f9b1c"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID8b768c9b03318e93b151653263424961",
+              "term": "amoxicilina 500 mg cápsula 21 cápsulas",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID8b768c9b03318e93b151653263424961"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/IDe4ffefc972b4660b86a06accd37c783d"
+            }
+          },
+          "tf": {
+            "id": "IDf83ac54ccd5e62ae7fb53056eaf7ca5f",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDf83ac54ccd5e62ae7fb53056eaf7ca5f"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "914281000167104",
+              "term": "amoxicilina 500 mg cápsula (Andrómaco) 21 cápsulas"
+            }
+          }
+        },
+        {
+          "id": "ID6b8649ed98c64626f4304856e1691c8e",
+          "term": "amoxicilina 500 mg cápsula (Biosyntec) 21 cápsulas",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "BiosynTec S.A.",
+          "extended": [
+            "cápsula"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID46b46c70b5441761a20503297a8e75e6",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID46b46c70b5441761a20503297a8e75e6"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDceec67d99f8aaa6740427d1f546d9314",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDceec67d99f8aaa6740427d1f546d9314"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID3da83545faa9192baf81a77471d455a3",
+              "term": "amoxicilina 500 mg cápsula",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID3da83545faa9192baf81a77471d455a3"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID56e7dc762e15be956921482ab93a4cac",
+              "term": "amoxicilina 500 mg cápsula (Biosyntec)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID56e7dc762e15be956921482ab93a4cac"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID4f1ffb63601fd1d5f62ef44255510510",
+              "term": "amoxicilina 500 mg cápsula 21 cápsulas",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID4f1ffb63601fd1d5f62ef44255510510"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID6b8649ed98c64626f4304856e1691c8e"
+            }
+          },
+          "tf": {
+            "id": "IDbaaca3df88504563145aa27099468ab0",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDbaaca3df88504563145aa27099468ab0"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "915811000167107",
+              "term": "amoxicilina 500 mg cápsula (Biosyntec) 21 cápsulas"
+            }
+          }
+        },
+        {
+          "id": "IDaa8ded6a3711fab2e51fff351d425a9c",
+          "term": "amoxicilina 500 mg cápsula (Euromed) 21 cápsulas",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorios Euromed Chile S.A.",
+          "extended": [
+            "cápsula"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID0ff5b416602c5782a4f163741b43df88",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID0ff5b416602c5782a4f163741b43df88"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDbfe6dca2812f5c4ab79abe3900450ef9",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDbfe6dca2812f5c4ab79abe3900450ef9"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "IDc6b88b22b2729d11f68c61cc47caf123",
+              "term": "amoxicilina 500 mg cápsula",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/IDc6b88b22b2729d11f68c61cc47caf123"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID82ec316589174b6aaa6753fd264f0daa",
+              "term": "amoxicilina 500 mg cápsula (Euromed)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID82ec316589174b6aaa6753fd264f0daa"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID2dec85a949d3b84c442a63625d8a00c9",
+              "term": "amoxicilina 500 mg cápsula 21 cápsulas",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID2dec85a949d3b84c442a63625d8a00c9"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/IDaa8ded6a3711fab2e51fff351d425a9c"
+            }
+          },
+          "tf": {
+            "id": "ID5721fbf7374b65287ec90e38e2544fa9",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID5721fbf7374b65287ec90e38e2544fa9"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "918531000167107",
+              "term": "amoxicilina 500 mg cápsula (Euromed) 21 cápsulas"
+            }
+          }
+        },
+        {
+          "id": "ID0cc66ce22b2a23f8d5e3b7f80b316f71",
+          "term": "amoxicilina 500 mg cápsula (Euromed) 6 cápsulas",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorios Euromed Chile S.A.",
+          "extended": [
+            "cápsula"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID1ab4b89ea572fd236dd0b58a29a3737d",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID1ab4b89ea572fd236dd0b58a29a3737d"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID31ac4e698c421e65557fb6ffb6df734d",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID31ac4e698c421e65557fb6ffb6df734d"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID08b5e68fdef9bbefedef16665024ab3d",
+              "term": "amoxicilina 500 mg cápsula",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID08b5e68fdef9bbefedef16665024ab3d"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID30246f86b2c6f0cc756cb0191b2989bf",
+              "term": "amoxicilina 500 mg cápsula (Euromed)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID30246f86b2c6f0cc756cb0191b2989bf"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID94e61e763b5dc282270afbdd3dc45253",
+              "term": "amoxicilina 500 mg cápsula 6 cápsulas",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID94e61e763b5dc282270afbdd3dc45253"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID0cc66ce22b2a23f8d5e3b7f80b316f71"
+            }
+          },
+          "tf": {
+            "id": "IDf46479f2588454b4df6a89f950d58f11",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDf46479f2588454b4df6a89f950d58f11"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "918771000167102",
+              "term": "amoxicilina 500 mg cápsula (Euromed) 6 cápsulas"
+            }
+          }
+        },
+        {
+          "id": "ID2bbf59490bf72a201157d5c2d7c0c8ad",
+          "term": "amoxicilina 500 mg cápsula (Mintlab) 21 cápsulas",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Mintlab Co. S.A.",
+          "extended": [
+            "cápsula"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "IDf73d4eb561a8eb9b71fbab8a7e3e2044",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDf73d4eb561a8eb9b71fbab8a7e3e2044"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDb6e819ad51d022f5accd350c60837682",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDb6e819ad51d022f5accd350c60837682"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID4863274575eca419793849b517f06711",
+              "term": "amoxicilina 500 mg cápsula",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID4863274575eca419793849b517f06711"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "IDac171d507d39392bee77c86fc581612e",
+              "term": "amoxicilina 500 mg cápsula (Mintlab)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/IDac171d507d39392bee77c86fc581612e"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID70e2454d551992226de0cfb202531ed9",
+              "term": "amoxicilina 500 mg cápsula 21 cápsulas",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID70e2454d551992226de0cfb202531ed9"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID2bbf59490bf72a201157d5c2d7c0c8ad"
+            }
+          },
+          "tf": {
+            "id": "IDfa1103d77fb4ff221ad6a68675b44640",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDfa1103d77fb4ff221ad6a68675b44640"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "914811000167106",
+              "term": "amoxicilina 500 mg cápsula (Mintlab) 21 cápsulas"
+            }
+          }
+        },
+        {
+          "id": "ID736d54292d7d9372e82c55e74dad3945",
+          "term": "amoxicilina 500 mg cápsula (Mintlab) 6 cápsulas",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Mintlab Co. S.A.",
+          "extended": [
+            "cápsula"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID21abcd704c0025dc74f34473f487bc76",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID21abcd704c0025dc74f34473f487bc76"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID203e20081592be599606a2f872214977",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID203e20081592be599606a2f872214977"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "IDf3ee6a401050b2a64e1d1d4d1a89813d",
+              "term": "amoxicilina 500 mg cápsula",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/IDf3ee6a401050b2a64e1d1d4d1a89813d"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID6bb9414bc18f49f0f03c26f8f8277c6e",
+              "term": "amoxicilina 500 mg cápsula (Mintlab)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID6bb9414bc18f49f0f03c26f8f8277c6e"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID8986cacb978b036441fe24492fd87789",
+              "term": "amoxicilina 500 mg cápsula 6 cápsulas",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID8986cacb978b036441fe24492fd87789"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID736d54292d7d9372e82c55e74dad3945"
+            }
+          },
+          "tf": {
+            "id": "IDa7743bd01d199a28ea4799e030d2e459",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDa7743bd01d199a28ea4799e030d2e459"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "917121000167104",
+              "term": "amoxicilina 500 mg cápsula (Mintlab) 6 cápsulas"
+            }
+          }
+        },
+        {
+          "id": "ID7ef86f8b6be48afbfa1fb2660885882e",
+          "term": "amoxicilina 500 mg cápsula (OPKO) 21 cápsulas",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "OPKO CHILE S.A.",
+          "extended": [
+            "cápsula"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "IDf660128a77c964f9c39d70cf6f21bff8",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDf660128a77c964f9c39d70cf6f21bff8"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDbb976168355c8d2f114fe4ec5fa4857f",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDbb976168355c8d2f114fe4ec5fa4857f"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID5041c4cc72a869f774373a6498767373",
+              "term": "amoxicilina 500 mg cápsula",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID5041c4cc72a869f774373a6498767373"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID12d27cf7c7d215ad1ee6938d91316b9f",
+              "term": "amoxicilina 500 mg cápsula (OPKO)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID12d27cf7c7d215ad1ee6938d91316b9f"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID9706e8651c3aeeb995af4075227c2eb2",
+              "term": "amoxicilina 500 mg cápsula 21 cápsulas",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID9706e8651c3aeeb995af4075227c2eb2"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID7ef86f8b6be48afbfa1fb2660885882e"
+            }
+          },
+          "tf": {
+            "id": "ID5646c5ec43eaaac87f45a058dda9ea92",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID5646c5ec43eaaac87f45a058dda9ea92"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "914751000167103",
+              "term": "amoxicilina 500 mg cápsula (OPKO) 21 cápsulas"
+            }
+          }
+        },
+        {
+          "id": "ID316c6fb7963222855e363c8941588bf4",
+          "term": "amoxicilina 500 mg cápsula (OPKO) 6 cápsulas",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "OPKO CHILE S.A.",
+          "extended": [
+            "cápsula"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID923f667ffeb7a00aecd2993fceb0b0d7",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID923f667ffeb7a00aecd2993fceb0b0d7"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID90c73a05e25c37ad2626f3099ccdc778",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID90c73a05e25c37ad2626f3099ccdc778"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "IDfa28b4cc72fd3555295970d38e6d2a3d",
+              "term": "amoxicilina 500 mg cápsula",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/IDfa28b4cc72fd3555295970d38e6d2a3d"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID62153a5d8e1b5b9442713e9ee5f437df",
+              "term": "amoxicilina 500 mg cápsula (OPKO)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID62153a5d8e1b5b9442713e9ee5f437df"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID12e2a54d7419786bffb30680ec0064c7",
+              "term": "amoxicilina 500 mg cápsula 6 cápsulas",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID12e2a54d7419786bffb30680ec0064c7"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID316c6fb7963222855e363c8941588bf4"
+            }
+          },
+          "tf": {
+            "id": "ID5e4c6c159a0c4fff0fcf0093935b7c88",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID5e4c6c159a0c4fff0fcf0093935b7c88"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "916381000167102",
+              "term": "amoxicilina 500 mg cápsula (OPKO) 6 cápsulas"
+            }
+          }
+        },
+        {
+          "id": "IDd0570f569cf079eb18967b4b61dad9ae",
+          "term": "amoxicilina 500 mg comprimido (Andrómaco) 6 comprimidos",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorios Andrómaco S.A.",
+          "extended": [
+            "comprimido"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "IDcd0ece49b0315a687b517e38ae62ac7d",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDcd0ece49b0315a687b517e38ae62ac7d"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID2875b0f58b53e735363369e6d43daab2",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID2875b0f58b53e735363369e6d43daab2"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID42a200990ed801438e74617fc226a709",
+              "term": "amoxicilina 500 mg comprimido",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID42a200990ed801438e74617fc226a709"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "IDebd56ddc2b580208bef35ecef6694c77",
+              "term": "amoxicilina 500 mg comprimido (Andrómaco)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/IDebd56ddc2b580208bef35ecef6694c77"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID831f70239542e8727c587e7de377a30b",
+              "term": "amoxicilina 500 mg comprimido 6 comprimidos",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID831f70239542e8727c587e7de377a30b"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/IDd0570f569cf079eb18967b4b61dad9ae"
+            }
+          },
+          "tf": {
+            "id": "ID40a6ec8d77b77fb3b9718029e879adb5",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID40a6ec8d77b77fb3b9718029e879adb5"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "917201000167104",
+              "term": "amoxicilina 500 mg comprimido (Andrómaco) 6 comprimidos"
+            }
+          }
+        },
+        {
+          "id": "IDfde6527c6952d5514569ba25100932ae",
+          "term": "amoxicilina 500 mg comprimido (Lab Chile) 6 comprimidos",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorio Chile S.A.",
+          "extended": [
+            "comprimido"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID2c462759061291ec4c4c1348cf9139a3",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID2c462759061291ec4c4c1348cf9139a3"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID97862dc6146b5e854f3466e9fb7b7a23",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID97862dc6146b5e854f3466e9fb7b7a23"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID2eb842db27c670b881dbe947a5114c24",
+              "term": "amoxicilina 500 mg comprimido",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID2eb842db27c670b881dbe947a5114c24"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "IDfae8bad079c4bc3d0e59324cfc697abe",
+              "term": "amoxicilina 500 mg comprimido (Lab Chile)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/IDfae8bad079c4bc3d0e59324cfc697abe"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID1fa2fb687c733fa8ba4f0ac311760bdb",
+              "term": "amoxicilina 500 mg comprimido 6 comprimidos",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID1fa2fb687c733fa8ba4f0ac311760bdb"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/IDfde6527c6952d5514569ba25100932ae"
+            }
+          },
+          "tf": {
+            "id": "IDff4745b90d3443cb92e1073e41430050",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDff4745b90d3443cb92e1073e41430050"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "916981000167103",
+              "term": "amoxicilina 500 mg comprimido (Lab Chile) 6 comprimidos"
+            }
+          }
+        },
+        {
+          "id": "ID64ae23167af6c6168ac9681d1df94fd0",
+          "term": "amoxicilina 750 mg comprimido (Andrómaco) 10 comprimidos",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": 0,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorios Andrómaco S.A.",
+          "extended": [
+            "comprimido"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID1f3bdf5492dcaa22139aec16f5c46d23",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID1f3bdf5492dcaa22139aec16f5c46d23"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDf675951fe6e2c72b8b00e6b71eb837b7",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDf675951fe6e2c72b8b00e6b71eb837b7"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID74194b43123854a3ab51c9eee6c6167a",
+              "term": "amoxicilina 750 mg comprimido",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID74194b43123854a3ab51c9eee6c6167a"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID01a36ee6f954638b3d247993a4975fbd",
+              "term": "amoxicilina 750 mg comprimido (Andrómaco)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID01a36ee6f954638b3d247993a4975fbd"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID23a0b407d476b88d64cad92ccfc96b09",
+              "term": "amoxicilina 750 mg comprimido 10 comprimidos",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID23a0b407d476b88d64cad92ccfc96b09"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID64ae23167af6c6168ac9681d1df94fd0"
+            }
+          },
+          "tf": {
+            "id": "ID4be10e60da41623ff1306e0ba279d741",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID4be10e60da41623ff1306e0ba279d741"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "916241000167103",
+              "term": "amoxicilina 750 mg comprimido (Andrómaco) 10 comprimidos"
+            }
+          }
+        },
+        {
+          "id": "ID6bd0fc3f39386a2fa56e6f572f0c1d54",
+          "term": "amoxicilina 750 mg comprimido (Lab Chile) 10 comprimidos",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Laboratorio Chile S.A.",
+          "extended": [
+            "comprimido"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID5d701c23227c0d997ee9c341ec664fa4",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID5d701c23227c0d997ee9c341ec664fa4"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID2d2ca730e620d968d22ba0228332a6c4",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID2d2ca730e620d968d22ba0228332a6c4"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID45cd8f3fb4c0d69fc7ebd76faac10dbe",
+              "term": "amoxicilina 750 mg comprimido",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID45cd8f3fb4c0d69fc7ebd76faac10dbe"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "IDbfd6d186b3ea7cec91694b4bf4556ea8",
+              "term": "amoxicilina 750 mg comprimido (Lab Chile)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/IDbfd6d186b3ea7cec91694b4bf4556ea8"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "IDf7a0daead5bf1ef384045ca510592a1d",
+              "term": "amoxicilina 750 mg comprimido 10 comprimidos",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/IDf7a0daead5bf1ef384045ca510592a1d"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID6bd0fc3f39386a2fa56e6f572f0c1d54"
+            }
+          },
+          "tf": {
+            "id": "IDc9c26d6476c78b84e472f9cb5349d520",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDc9c26d6476c78b84e472f9cb5349d520"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "915941000167100",
+              "term": "amoxicilina 750 mg comprimido (Lab Chile) 10 comprimidos"
+            }
+          }
+        },
+        {
+          "id": "ID2f02a9cda1f0ff94738dde4a17852b00",
+          "term": "amoxicilina 750 mg comprimido (Mintlab) 10 comprimidos",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Mintlab Co. S.A.",
+          "extended": [
+            "comprimido"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID67c329366fd4d57b39f997fa6c82a7fa",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID67c329366fd4d57b39f997fa6c82a7fa"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID3990bc98252343a943bcf7dd1775a239",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID3990bc98252343a943bcf7dd1775a239"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID21d71b4dcb88c400336dde1958a08722",
+              "term": "amoxicilina 750 mg comprimido",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID21d71b4dcb88c400336dde1958a08722"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "IDfd0e903c2424abfc96796d7324b7da7f",
+              "term": "amoxicilina 750 mg comprimido (Mintlab)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/IDfd0e903c2424abfc96796d7324b7da7f"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID94130cabd81ee97735f56abd630b584b",
+              "term": "amoxicilina 750 mg comprimido 10 comprimidos",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID94130cabd81ee97735f56abd630b584b"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID2f02a9cda1f0ff94738dde4a17852b00"
+            }
+          },
+          "tf": {
+            "id": "ID88bcf2e0099e7f61ff76deed7afedc2b",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID88bcf2e0099e7f61ff76deed7afedc2b"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "916091000167102",
+              "term": "amoxicilina 750 mg comprimido (Mintlab) 10 comprimidos"
+            }
+          }
+        },
+        {
+          "id": "ID7390d75091be6dcaaaec90379003f1bc",
+          "term": "amoxicilina 750 mg comprimido (OPKO) 10 comprimidos",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "OPKO CHILE S.A.",
+          "extended": [
+            "comprimido"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "IDd74b404cad3610018c86b05b929f832f",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDd74b404cad3610018c86b05b929f832f"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID728207bbca8f9c9a95a5cf1aa27943d7",
+              "term": "amoxicilina",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID728207bbca8f9c9a95a5cf1aa27943d7"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID569e30298e515977084023523b820b40",
+              "term": "amoxicilina 750 mg comprimido",
+              "status": true,
+              "dispensing_criteria": "receta médica",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID569e30298e515977084023523b820b40"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID0d122dbb2f51334a58d7a6d7079eafb0",
+              "term": "amoxicilina 750 mg comprimido (OPKO)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID0d122dbb2f51334a58d7a6d7079eafb0"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "IDb008dd7a2dbab7f7e5149a54e1e42fb6",
+              "term": "amoxicilina 750 mg comprimido 10 comprimidos",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/IDb008dd7a2dbab7f7e5149a54e1e42fb6"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID7390d75091be6dcaaaec90379003f1bc"
+            }
+          },
+          "tf": {
+            "id": "IDd7556bfe1dccfbb6f2fe105637502400",
+            "term": "amoxicilina",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/IDd7556bfe1dccfbb6f2fe105637502400"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "916691000167105",
+              "term": "amoxicilina 750 mg comprimido (OPKO) 10 comprimidos"
+            }
+          }
+        },
+        {
+          "id": "ID20ac49219d13d4eee4d7c6df64b4dcf9",
+          "term": "cefamox 250 mg/5 mL polvo para suspensión oral (B-MS) 1 frasco 100 mililitros",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": 0,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Bristol-Myers Squibb",
+          "extended": [
+            "polvo para suspensión oral"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID2b744a24a1fa4c6337762cd0f8043c94",
+              "term": "cefadroxilo",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID2b744a24a1fa4c6337762cd0f8043c94"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDc359e96e106a45c3e63e18307de86b8a",
+              "term": "cefadroxilo",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDc359e96e106a45c3e63e18307de86b8a"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "IDf50b3d765d9db285ccd2c8265e9e602f",
+              "term": "cefadroxilo 250 mg/5 mL polvo para preparado oral",
+              "status": true,
+              "dispensing_criteria": "receta médica retenida",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/IDf50b3d765d9db285ccd2c8265e9e602f"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID8d500dd0bd46f5c4d9e619885a5c88b7",
+              "term": "cefamox 250 mg/5 mL polvo para suspensión oral (B-MS)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID8d500dd0bd46f5c4d9e619885a5c88b7"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "IDd6ab788e21c454038a89a17009b1738e",
+              "term": "cefadroxilo 250 mg/5 mL polvo para preparado oral 1 frasco 100 mililitros",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/IDd6ab788e21c454038a89a17009b1738e"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/ID20ac49219d13d4eee4d7c6df64b4dcf9"
+            }
+          },
+          "tf": {
+            "id": "ID399837b5de8dc5503a2c219965efabc4",
+            "term": "cefamox",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID399837b5de8dc5503a2c219965efabc4"
+              }
+            }
+          },
+          "tfg": {
+            "id": "IDe6f45a144a4886786bed9fae7e8c5dd0",
+            "term": "cefamox",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tfg/IDe6f45a144a4886786bed9fae7e8c5dd0"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "889071000167104",
+              "term": "cefamox 250 mg/5 mL polvo para suspensión oral (B-MS) 1 frasco 100 mililitros"
+            }
+          }
+        },
+        {
+          "id": "IDeaab899f7064602b7689f53fc72fa0a7",
+          "term": "cefamox 500 mg cápsula (B-MS) 16 cápsulas",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Bristol-Myers Squibb",
+          "extended": [
+            "cápsula"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "IDdc87a4c1b9b5173dc77fb9cf7d7ac13f",
+              "term": "cefadroxilo",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/IDdc87a4c1b9b5173dc77fb9cf7d7ac13f"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "ID95209cca46c44ec26ce40fd466b54632",
+              "term": "cefadroxilo",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/ID95209cca46c44ec26ce40fd466b54632"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID38c0af0b81f6afcab75f7949f3900f30",
+              "term": "cefadroxilo 500 mg cápsula",
+              "status": true,
+              "dispensing_criteria": "receta médica retenida",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID38c0af0b81f6afcab75f7949f3900f30"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID3294f01017688d7c9adc2c4a8fa17e82",
+              "term": "cefamox 500 mg cápsula (B-MS)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID3294f01017688d7c9adc2c4a8fa17e82"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID21e8881f3054f1947d6dee952c562020",
+              "term": "cefadroxilo 500 mg cápsula 16 cápsulas",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID21e8881f3054f1947d6dee952c562020"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/IDeaab899f7064602b7689f53fc72fa0a7"
+            }
+          },
+          "tf": {
+            "id": "ID6a070212e8b7f52ceb37f4f46c8acefc",
+            "term": "cefamox",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID6a070212e8b7f52ceb37f4f46c8acefc"
+              }
+            }
+          },
+          "tfg": {
+            "id": "ID060a9af3dc00881ff387829c13870a05",
+            "term": "cefamox",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tfg/ID060a9af3dc00881ff387829c13870a05"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "903861000167107",
+              "term": "cefamox 500 mg cápsula (B-MS) 16 cápsulas"
+            }
+          }
+        },
+        {
+          "id": "IDdb11179934c4b36860fb0c19c9c02daa",
+          "term": "cefamox 500 mg cápsula (B-MS) 8 cápsulas",
+          "status": true,
+          "category": "Productos",
+          "subcategory": "AMPP",
+          "device": 0,
+          "pack_quantity": null,
+          "pack_quantity_unit": null,
+          "flavour": null,
+          "supplier": "Bristol-Myers Squibb",
+          "extended": [
+            "cápsula"
+          ],
+          "synonyms": [],
+          "marketed": 1,
+          "substances": [
+            {
+              "id": "ID9cb7088531c4bda65e0327560c040d70",
+              "term": "cefadroxilo",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/substances/ID9cb7088531c4bda65e0327560c040d70"
+                }
+              }
+            }
+          ],
+          "vtm": [
+            {
+              "id": "IDb31fb3578ba432ece178b58ab7a6e079",
+              "term": "cefadroxilo",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vtm/IDb31fb3578ba432ece178b58ab7a6e079"
+                }
+              }
+            }
+          ],
+          "vmp": [
+            {
+              "id": "ID598bc9d3afbbb35ac754d29289c6c164",
+              "term": "cefadroxilo 500 mg cápsula",
+              "status": true,
+              "dispensing_criteria": "receta médica retenida",
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmp/ID598bc9d3afbbb35ac754d29289c6c164"
+                }
+              }
+            }
+          ],
+          "amp": [
+            {
+              "id": "ID40dff167f9e1b154f9b047efac01b5a9",
+              "term": "cefamox 500 mg cápsula (B-MS)",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/amp/ID40dff167f9e1b154f9b047efac01b5a9"
+                }
+              }
+            }
+          ],
+          "vmpp": [
+            {
+              "id": "ID22d3bb1514d6f7fd4178802837338e79",
+              "term": "cefadroxilo 500 mg cápsula 8 cápsulas",
+              "status": true,
+              "_links": {
+                "self": {
+                  "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/vmpp/ID22d3bb1514d6f7fd4178802837338e79"
+                }
+              }
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/ampp/IDdb11179934c4b36860fb0c19c9c02daa"
+            }
+          },
+          "tf": {
+            "id": "ID94995201020f20b76641761e731f7027",
+            "term": "cefamox",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tf/ID94995201020f20b76641761e731f7027"
+              }
+            }
+          },
+          "tfg": {
+            "id": "IDaf0cac5dbb91905c5eb0a446b38566de",
+            "term": "cefamox",
+            "status": true,
+            "_links": {
+              "self": {
+                "href": "https://api-farmacos-qa.alemana.cl/apifarm/v1/tfg/IDaf0cac5dbb91905c5eb0a446b38566de"
+              }
+            }
+          },
+          "maps": {
+            "tfc": {
+              "subcategory": "AMPP",
+              "tfc_id": "903871000167101",
+              "term": "cefamox 500 mg cápsula (B-MS) 8 cápsulas"
+            }
+          }
+        }
+      ]
+    }
+  }
