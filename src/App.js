@@ -5,6 +5,7 @@ import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Select from "react-select";
+import Card from "./components/Card";
 
 function App() {
 
@@ -106,7 +107,7 @@ function App() {
               <th>Empresa</th>
             </tr>
           </thead>
-          <tbody>
+          {/* <tbody>
             {Medicamentos &&
               Medicamentos.map((medicina) => (
                 <tr key={medicina.page}>
@@ -120,8 +121,10 @@ function App() {
                   <td>{medicina.company.name}</td>
                 </tr>
               ))}
-          </tbody>
+          </tbody> */}
         </table>
+          <Card/>
+
       </div>
     </div>
   );
