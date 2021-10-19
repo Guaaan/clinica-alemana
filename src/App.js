@@ -5,10 +5,9 @@ import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Select from "react-select";
-import Card from "./components/Card";
+import Card from "./containers/Card";
 
 function App() {
-
   const [Medicamentos, setMedicamentos] = useState([]);
   const [tablaMedicamentos, setTablaMedicamentos] = useState([]);
   const [busqueda, setBusqueda] = useState("");
@@ -25,46 +24,52 @@ function App() {
       "Content-Type": "application/json",
     },
   };
-
+  const peticionGet = async () => {
   axios(config)
     .then(function (response) {
-      console.log(JSON.stringify(response.data));
+      console.log(JSON.parse(response.data));
     })
     .catch(function (error) {
       console.log(error);
     });
-
-
-
-  const peticionGet = async () => {
+}
+  /*const peticionGet = async () => {
     await axios(config)
-    .then(response => {
-      setMedicamentos(response.data);
-      setTablaMedicamentos(response.data);
-      }).catch(error => {
-        console.log(error);
+      .then((response) => {
+        setMedicamentos(response.data);
+        setTablaMedicamentos(response.data);
       })
-    }
-
-    const handleChange = e => {
-      setBusqueda(e.target.value);
-      filtrar(e.target.value);
-    }
-    
-    const filtrar = (terminoBusqueda) => {
-      var resultadosBusqueda = tablaMedicamentos.filter((elemento) => {
-        if (elemento.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())
-        || elemento.company.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())
-        ) {
-          return elemento;
-        }
+      .catch((error) => {
+        console.log(error);
       });
-      setMedicamentos(resultadosBusqueda);
-    }
-    
-    useEffect(() => {
-      peticionGet();
-    }, [])
+  };*/
+
+  const handleChange = (e) => {
+    setBusqueda(e.target.value);
+    filtrar(e.target.value);
+  };
+
+  const filtrar = (terminoBusqueda) => {
+    var resultadosBusqueda = tablaMedicamentos.filter((elemento) => {
+      if (
+        elemento.name
+          .toString()
+          .toLowerCase()
+          .includes(terminoBusqueda.toLowerCase()) ||
+        elemento.company.name
+          .toString()
+          .toLowerCase()
+          .includes(terminoBusqueda.toLowerCase())
+      ) {
+        return elemento;
+      }
+    });
+    setMedicamentos(resultadosBusqueda);
+  };
+
+  useEffect(() => {
+    peticionGet();
+  }, []);
 
   return (
     <div className="App">
@@ -91,10 +96,11 @@ function App() {
           <FontAwesomeIcon icon={faSearch} />
         </button>
       </div>
-
+      <div></div>
       <div className="table-responsive">
+        {/* <Card/>  */}
 
-        <table className="table table-sm table-bordered">
+        {/*<table className="table table-sm table-bordered">
           <thead>
             <tr>
               <th>ID</th>
@@ -107,7 +113,7 @@ function App() {
               <th>Empresa</th>
             </tr>
           </thead>
-          {/* <tbody>
+           <tbody>
             {Medicamentos &&
               Medicamentos.map((medicina) => (
                 <tr key={medicina.page}>
@@ -121,10 +127,8 @@ function App() {
                   <td>{medicina.company.name}</td>
                 </tr>
               ))}
-          </tbody> */}
-        </table>
-          <Card/>
-
+          </tbody> 
+        </table>*/}
       </div>
     </div>
   );
