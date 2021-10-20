@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Select from "react-select";
 import Card from "./containers/Card";
+import MedicListContainer from "./containers/MedicListContainer";
 
 function App() {
   const [Medicamentos, setMedicamentos] = useState([]);
@@ -27,7 +28,7 @@ function App() {
   const peticionGet = async () => {
   axios(config)
     .then(function (response) {
-      console.log(JSON.parse(response.data));
+      console.log(JSON.stringify(response.data));
     })
     .catch(function (error) {
       console.log(error);
@@ -98,7 +99,7 @@ function App() {
       </div>
       <div></div>
       <div className="table-responsive">
-        {/* <Card/>  */}
+        <MedicListContainer/>
 
         {/*<table className="table table-sm table-bordered">
           <thead>
