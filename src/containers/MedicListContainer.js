@@ -15,7 +15,7 @@ class MedicListContainer extends Component {
             headers: {"X-API-Key": "5e1dc5891a05f000011faf522daf1a4785e04b3ab708d2da1fc7ea4c"},})
         .then(res => {
           const medicData = res.data._embedded.vmpp;
-
+          //const medicLink = res.data._embedded.vmpp._links.self.href;
           this.setState({
             medicData
           });
