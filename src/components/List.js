@@ -1,20 +1,20 @@
 import React, { Fragment } from "react";
+import MedicCard from "./MedicCard";
+import { Row, Col } from "react-bootstrap";
 
 function List({ medicdata }) {
   return (
     <Fragment>
       <h1>lista de Medicamentos</h1>
-      <ul>
+      <Row xs={1} md={5} className="g-4">
         {medicdata.map((medicamento, index) => {
           return (
-            <li key={index}>
-              <p>{medicamento.term}</p>
-              <p>Venta en Chile activa: {medicamento.status}</p>
-              <a href={medicamento._links.self.href}>link</a>
-            </li>
+            <Col>
+              <MedicCard nombre={medicamento.term} />
+            </Col>
           );
         })}
-      </ul>
+      </Row>
     </Fragment>
   );
 }

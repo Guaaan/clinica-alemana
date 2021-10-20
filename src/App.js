@@ -5,7 +5,7 @@ import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Select from "react-select";
-import Card from "./containers/Card";
+import Card from "./components/MedicCard";
 import MedicListContainer from "./containers/MedicListContainer";
 
 function App() {
@@ -26,14 +26,14 @@ function App() {
     },
   };
   const peticionGet = async () => {
-  axios(config)
-    .then(function (response) {
-      console.log(JSON.stringify(response.data));
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-}
+    axios(config)
+      .then(function (response) {
+        console.log(JSON.stringify(response.data));
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  };
   /*const peticionGet = async () => {
     await axios(config)
       .then((response) => {
@@ -97,40 +97,42 @@ function App() {
           <FontAwesomeIcon icon={faSearch} />
         </button>
       </div>
-      <div></div>
+      <div>
+        <MedicListContainer />
+      </div>
+      
       <div className="table-responsive">
-        <MedicListContainer/>
-
         {/*<table className="table table-sm table-bordered">
           <thead>
             <tr>
-              <th>ID</th>
-              <th>Nombre</th>
-              <th>Status</th>
-              <th>Nombre de Usuario</th>
-              <th>Correo</th>
-              <th>Sitio Web</th>
-              <th>Ciudad</th>
-              <th>Empresa</th>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Status</th>
+            <th>Nombre de Usuario</th>
+            <th>Correo</th>
+            <th>Sitio Web</th>
+            <th>Ciudad</th>
+            <th>Empresa</th>
             </tr>
-          </thead>
-           <tbody>
+            </thead>
+            <tbody>
             {Medicamentos &&
               Medicamentos.map((medicina) => (
                 <tr key={medicina.page}>
-                  <td>{medicina._links}</td>
-                  <td>{medicina._embedded}</td>
-                  <td>{medicina.phone}</td>
-                  <td>{medicina.username}</td>
-                  <td>{medicina.email}</td>
-                  <td>{medicina.website}</td>
-                  <td>{medicina.address.city}</td>
-                  <td>{medicina.company.name}</td>
+                <td>{medicina._links}</td>
+                <td>{medicina._embedded}</td>
+                <td>{medicina.phone}</td>
+                <td>{medicina.username}</td>
+                <td>{medicina.email}</td>
+                <td>{medicina.website}</td>
+                <td>{medicina.address.city}</td>
+                <td>{medicina.company.name}</td>
                 </tr>
-              ))}
+                ))}
           </tbody> 
         </table>*/}
       </div>
+      
     </div>
   );
 }
