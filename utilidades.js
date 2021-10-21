@@ -160,3 +160,7 @@ function App() {
   );
 }
 //final de mi componente App()
+
+
+//quedé en este video https://www.youtube.com/watch?v=27ozl0fpBb0&list=PL4qycS8CTHjtMkDeqBHii9gviQKc0P68g&index=18
+// en el minuto 7
