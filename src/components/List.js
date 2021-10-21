@@ -8,10 +8,9 @@ function List({ medicdata }) {
       <h1>lista de Medicamentos</h1>
       <Row xs={1} md={5} className="g-4">
         {medicdata.map((medicamento, index) => {
-          console.log(medicamento._links.self.href)
           return (
             <Col>
-              <MedicCard nombre={medicamento.term} />
+              <MedicCard nombre={medicamento.term} id={medicamento.id} proveedor={medicamento.supplier} />
             </Col>
           );
         })}
