@@ -8,9 +8,18 @@ function List({ medicdata }) {
       <h1>lista de Medicamentos</h1>
       <Row xs={1} md={5} className="g-4">
         {medicdata.map((medicamento, index) => {
+          let medicIndex = medicamento.url.split('/')[medicamento.url.split('/').length - 2]
           return (
+            //envía estps datos a la mediccard
             <Col>
-              <MedicCard nombre={medicamento.term} id={medicamento.id} proveedor={medicamento.supplier} />
+              <MedicCard
+                //to={`/medic-info/${medicIndex}`}
+                nombre={medicamento.term}
+                id={medicamento.id}
+                proveedor={medicamento.supplier}
+                extended={medicamento.extended}
+                sabor={medicamento.flavour}
+              />
             </Col>
           );
         })}
